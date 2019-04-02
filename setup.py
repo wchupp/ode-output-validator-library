@@ -5,6 +5,6 @@ setup(
     version="0.1",
     author_email="fake@email.com",
     description="ODE Data Validation Library",
-    py_modules = ['odevalidator', 'result', 'sequential'],
+    py_modules = ['odevalidator', 'odevalidator.result', 'odevalidator.sequential'],
     packages=find_packages()
 )
