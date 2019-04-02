@@ -5,5 +5,5 @@ setup(
     version="0.01",
     author_email="fake@email.com",
     description="ODE Data Validation Library",
-    packages=['odevalidator']
+    packages=['odevalidator', 'result', 'sequential']
 )
