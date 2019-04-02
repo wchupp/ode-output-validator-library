@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="odevalidator",
@@ -6,5 +6,5 @@ setup(
     author_email="fake@email.com",
     description="ODE Data Validation Library",
     py_modules = ['odevalidator', 'result', 'sequential'],
-    packages=setuptools.finds_packages()
+    packages=find_packages()
 )
